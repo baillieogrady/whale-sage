@@ -23,9 +23,9 @@ $slider
             ->endGroup()
         ->addTab('options') 
             ->addImage('background image')
-            ->addColorPicker('blur',  [
-                'instructions' => 'Color of the blurred dot overlapping the heading',
-            ])
+            // ->addColorPicker('blur',  [
+            //     'instructions' => 'Color of the blurred dot overlapping the heading',
+            // ])
     ->endRepeater();
 
 return $slider;
