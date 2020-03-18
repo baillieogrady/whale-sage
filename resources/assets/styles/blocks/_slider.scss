@@ -1,0 +1,98 @@
+.slider {
+  .container {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+
+    @media (min-width: 1024px) {
+      bottom: 4rem;
+    }
+  }
+
+  &__nav {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+
+    .pagination {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding-right: 10vw;
+
+      a > span {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        background-color: rgba(255, 255, 255, 0.16);
+        border-radius: 50%;
+        transition: all 0.2s ease;
+      }
+
+      .active > span {
+        transform: scale(2);
+        background-color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+
+  &__slide {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+
+    @media (min-width: 1024px) {
+      padding-top: 20vh;
+    }
+  }
+
+  &__box {
+    max-width: 550px;
+  }
+
+  &__lead {
+    margin: 0;
+    letter-spacing: 1.5em;
+    line-height: 2;
+    text-align: left;
+    padding: 0 5vw;
+
+    @media (min-width: 1024px) {
+      text-align: center;
+      line-height: 1.3;
+    }
+  }
+
+  &__text p {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    img {
+      height: 15px;
+      width: 25px;
+      margin-left: 10px;
+
+      @media (min-width: 1024px) {
+        height: 25px;
+        width: 30px;
+      }
+    }
+  }
+}

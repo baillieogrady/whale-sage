@@ -1,0 +1,34 @@
+/** Tailwind base styles */
+// @tailwind base;
+
+/** Import everything from autoload */
+// @import "./autoload/**/*";
+
+/** Tailwind plugins */
+// @tailwind components;
+
+/** global */
+@import "common/normalise";
+@import "common/variables";
+@import "common/fonts";
+@import "common/global";
+@import "common/layout";
+
+/** Import npm dependencies */
+
+/** @import "~tachyons-sass/tachyons.scss"; */
+
+/** Import theme styles */
+@import "layouts/header";
+@import "layouts/footer";
+
+/** Blocks */
+@import "blocks/slider";
+
+/** Tailwind utilities */
+// @tailwind utilities;
+
+/** Define custom utilities */
+
+/** Vendor */
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.css"
