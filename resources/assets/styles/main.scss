@@ -31,4 +31,9 @@
 /** Define custom utilities */
 
 /** Vendor */
-@import "~@fancyapps/fancybox/dist/jquery.fancybox.css"
+
+/* purgecss start ignore */
+
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.css";
+
+/* purgecss end ignore */

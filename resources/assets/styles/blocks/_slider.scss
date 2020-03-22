@@ -1,6 +1,5 @@
 .slider {
   .container {
-    // bottom: 2rem;
     @media (min-width: 1024px) {
       position: absolute;
       left: 0;
@@ -23,6 +22,10 @@
       margin: 0;
       padding: 0;
       padding-right: 10vw;
+
+      li {
+        margin: 0.25rem 0;
+      }
 
       a > span {
         display: inline-block;
