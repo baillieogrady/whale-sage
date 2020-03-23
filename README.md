@@ -5,7 +5,7 @@
 Whale-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme.
 
 ### Example
-[whale.baillieogrady.com](https://minicaso.com)
+[whale.baillieogrady.com](https://whale.baillieogrady.com)
 
 ### Requirements
 
