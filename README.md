@@ -26,7 +26,7 @@ Plugins:
 Install theme into the WordPress themes directory
 
 ```
-$ git clone https://github.com/baillieogrady/minicaso-sage
+$ git clone https://github.com/baillieogrady/whale-sage
 ```
 
 ## Theme development
