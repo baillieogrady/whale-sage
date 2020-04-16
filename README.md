@@ -6,6 +6,24 @@ Whale-sage is a custom WordPress theme built on the [Sage](https://github.com/ro
 
 [Demo](https://whale.baillieogrady.com)
 
+## Usage
+
+[Download](http://baillieogrady.com/downloads/paige-sage.zip) production build and upload via WordPress.
+
+### Requirements
+
+- [ACF Pro](https://www.advancedcustomfields.com/pro/)
+
+## Theme development
+
+### Installation
+
+Clone this repo into your WordPress themes directory
+
+```
+$ git clone https://github.com/baillieogrady/whale-sage
+```
+
 ### Requirements
 
 Make sure all dependencies have been installed before moving on:
@@ -15,20 +33,6 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
-
-Plugins:
-
-* [ACF Pro](https://www.advancedcustomfields.com/pro/)
-
-## Installation
-
-Install theme into the WordPress themes directory
-
-```
-$ git clone https://github.com/baillieogrady/whale-sage
-```
-
-## Theme development
 
 *See full roots sage source & setup [here](https://github.com/roots/sage)*
 
@@ -44,8 +48,3 @@ $ git clone https://github.com/baillieogrady/whale-sage
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
 
-## Contributing
-
-```
-$ git clone https://github.com/baillieogrady/whale-sage
-```
