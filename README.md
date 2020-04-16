@@ -12,7 +12,7 @@ Whale-sage is a custom WordPress theme built on the [Sage](https://github.com/ro
 
 ### Requirements
 
-- [ACF Pro](https://www.advancedcustomfields.com/pro/)
+- [ACF Pro](https://www.advancedcustomfields.com/pro/) plugin
 
 ## Theme development
 
