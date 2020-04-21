@@ -1,6 +1,6 @@
 # Whale sage
 
-[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/whale-sage#info=devDependencies)
 
 Whale Sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme. I utilised the [ACF Pro](https://www.advancedcustomfields.com/pro/) plugin to create a custom slider gutenberg block.
 
