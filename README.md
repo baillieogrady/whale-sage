@@ -10,7 +10,7 @@ Whale Sage is a custom WordPress theme built on the [Sage](https://github.com/ro
 
 ### Installation
 
-[Download](https://baillieogrady.com/downloads/whale-sage.zip) production built theme and upload via the WordPress theme uploader at the following url on your website:
+[Download](https://baillieogrady.com/downloads/whale-sage.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
 
 ```
 https://yourwebsite.com/wp-admin/theme-install.php
