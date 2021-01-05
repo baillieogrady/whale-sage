@@ -90,7 +90,7 @@
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "fancybox": "^3.0.1",
     "jquery": "^3.3.1",
